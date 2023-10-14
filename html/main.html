@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animal Saver</title>
+	<link rel = "preconnect" href = "https://fonts.gstatic.com">
+	<link rel = "preconnect" href = "https://fonts.googleapis.com">
+	<link href = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600&display=swap" rel = "stylesheet">
+	<link rel = "stylesheet" type = "text/css" href = "/css/main.css">
+</head>
+
+<body>
+	<div class = "page" style = "position: relative;">
+		<div id = "Slogan">
+			<p id = "slogan" style = "position: absolute; top: 0px; left: 15px;">比起喜歡</p>
+			<p id = "slogan" style = "position: absolute; bottom: 0px; right: 25px;">生命更需要的是尊重</p>
+		</div>
+		<a href = "#menu">
+			<svg id = "toMenu" xmlns = "http://www.w3.org/2000/svg" fill = "currentColor" 
+			class = "bi bi-arrow-down-circle" viewBox = "0 0 16 16">
+				<path fill-rule = "evenodd" d = "M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z">
+			</svg>
+		</a>
+	</div>
+	<div class = "page" id = "Menu" style = "position: relative;">
+		<div class = "shortcut" id = "guideline" onclick = "javascript:location.href = '/instruction'">
+			<p id = "menu">救援指引</p>
+		</div>
+		<div class = "shortcut" id = "onlineForm" onclick = "javascript:location.href = '/form'">
+			<p id = "menu">線上通報表單</p>
+		</div>
+		<div class = "shortcut" id = "exam" onclick = "javascript:location.href = '/preTest'">
+			<p id = "menu">動物救援知識<br>小測驗</p>
+		</div>
+	</div>
+</body>
+</html>

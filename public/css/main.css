@@ -1,0 +1,93 @@
+html {scroll-behavior: smooth;}.page{height: 100vh;}
+body, #Slogan::before, #guideline::before, #onlineForm::before, #exam::before {
+	background-image: url(/assets/img1.png);
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-position: center; 
+	background-size: cover;
+}
+body {
+	animation: fadein 2s;
+}
+@keyframes fadein {0% {opacity: 0;} 100% {opacity: 1;}}
+
+.shortcut, #Slogan {
+	font-family: 'Noto Serif SC', serif;
+	border-style: double;
+	border-radius: 25px;
+	border-width: 7px;
+	border-color: #a9a9a9;
+	color: #808080;
+}
+#Slogan::before, #guideline::before, #onlineForm::before, #exam::before {
+	margin: auto;
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	content: '';
+	display: block;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	filter: blur(3px);
+}
+
+#Slogan {
+	width: 900px;
+	height: 350px;
+	position: absolute;
+	top: 50%;
+	margin-top: -175px;
+	left: 50%;
+	margin-left: -450px;
+	font-size: 2cm;
+	font-style: italic;
+	letter-spacing: 0.5mm;
+	text-align: center;
+	line-height: 1.65cm;
+}
+
+#toMenu {
+	width: 100px; 
+	height: 100px;
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -50px;
+	color: #696969;
+	opacity: 0.6;
+}
+#toMenu:hover {
+	opacity: 0.9;
+}
+
+.shortcut {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	line-height: 2.5cm;
+}
+#menu {
+	font-size: 1.7cm;
+}
+#guideline {
+	width: 600px;
+	height: 300px;
+	top: 50px;
+	left: 110px;
+}
+#onlineForm {
+	width: 600px;
+	height: 300px;
+	bottom: 35px;
+	left: 110px;
+}
+#exam {
+	width: 600px;
+	height: 650px;
+	top: 50%;
+	margin-top: -325px;
+	right: 100px;
+}
