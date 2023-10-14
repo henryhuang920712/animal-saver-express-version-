@@ -1,2 +1,38 @@
-# animal-saver--express-version-
- The express version of animal saver project.
+# Animal Saver
+
+我們選擇動物救援作為主題，在聆聽學期中火山哥演講的時候，我們意識到動物救援不能只仰賴專業人士，而是需要普羅大眾對於狀況處理的掌握。若能夠創建一個網站普及動物救援相關知識，既能強化大家對於動物救援相關緊急狀況的 SOP，也能夠透過遊戲測驗產生更強的參與意識。因此，我們的網站規劃三個部分：救援指示、救援通報表單，以及動物救援知識小測驗。
+
+## How to run our project?
+Please run this code to install packages
+
+```
+npm install
+```
+To start the server, please redirect to your file and run
+
+```
+nodemon app.js
+```
+If it doesn't work, run
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+then start the server again.
+
+Alternative way:
+```
+node app.js
+```
+You can view the webpages on http://localhost:3000
+
+## Features
+所有預定 Features 皆完成。
+
+### 救援指示
+這個功能旨在提供一個簡易的 GUI 介面，讓使用者能夠快速找到自己所處的動物救援情況，並提供最適宜的行動指示。使用者可以選擇不同的動物救援情境，例如貓狗受傷、鳥類受虐待等，系統將根據選擇的情境提供相應的處理指引，例如聯絡相關機構、撥打緊急電話等。這個功能旨在幫助使用者在面對不同的動物救援情況時能夠快速做出正確的行動，以保護動物的安全。
+
+### 動物救援知識小遊戲
+這個功能是一個有趣的小遊戲，旨在提供動物救援相關知識的學習和考核。遊戲設置了 10 題單選題，每題都與動物救援相關的知識有關。使用者可以選擇答案，並在提交答案後獲得分數和詳細的解析。這個小遊戲的目的是通過互動的方式引導使用者深入了解動物救援相關的知識，並在遊戲中提供反饋和學習機會。
+
+### 救援通報表單
+這個功能是在遇到緊急情況並需要專業人員協助時使用的工具。使用者可以填寫救援通報表單，提供相關的資訊和情況描述，並提交給相關單位或機構。這個功能旨在讓使用者能夠快速通報需要救援的情況，以便專業人員能夠及時趕到現場提供急救和協助。這個表單可能包含使用者的聯絡方式、地點資訊、動物的狀況描述等等，以確保準確的通報和救援。
